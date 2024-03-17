@@ -1,0 +1,73 @@
+00000000000d[CTRL ] searching for component 'log' in list 'bochs'
+00000000000d[CTRL ] searching for component 'prefix' in list 'log'
+00000000000i[     ] Bochs x86 Emulator 2.6.2
+00000000000i[     ]   Built from SVN snapshot on May 26, 2013
+00000000000i[     ] Compiled on Mar  4 2024 at 11:58:53
+00000000000i[     ] System configuration
+00000000000d[CTRL ] searching for component 'cpu' in list 'bochs'
+00000000000d[CTRL ] searching for component 'n_threads' in list 'cpu'
+00000000000d[CTRL ] searching for component 'cpu' in list 'bochs'
+00000000000d[CTRL ] searching for component 'n_cores' in list 'cpu'
+00000000000i[     ]   processors: 1 (cores=1, HT threads=1)
+00000000000i[     ]   A20 line support: yes
+00000000000d[CTRL ] searching for component 'cpu' in list 'bochs'
+00000000000d[CTRL ] searching for component 'msrs' in list 'cpu'
+00000000000d[CTRL ] searching for component 'cpu' in list 'bochs'
+00000000000d[CTRL ] searching for component 'ips' in list 'cpu'
+00000000000i[     ] IPS is set to 4000000
+00000000000i[     ] CPU configuration
+00000000000i[     ]   SMP support: no
+00000000000d[CTRL ] searching for component 'cpu' in list 'bochs'
+00000000000d[CTRL ] searching for component 'model' in list 'cpu'
+00000000000d[CTRL ] searching for component 'cpuid' in list 'bochs'
+00000000000d[CTRL ] searching for component 'level' in list 'cpuid'
+00000000000i[     ]   level: 6
+00000000000d[CTRL ] searching for component 'cpuid' in list 'bochs'
+00000000000d[CTRL ] searching for component 'apic' in list 'cpuid'
+00000000000i[     ]   APIC support: xapic
+00000000000i[     ]   FPU support: yes
+00000000000d[CTRL ] searching for component 'cpuid' in list 'bochs'
+00000000000d[CTRL ] searching for component 'mmx' in list 'cpuid'
+00000000000i[     ]   MMX support: yes
+00000000000i[     ]   3dnow! support: no
+00000000000d[CTRL ] searching for component 'cpuid' in list 'bochs'
+00000000000d[CTRL ] searching for component 'sep' in list 'cpuid'
+00000000000i[     ]   SEP support: yes
+00000000000d[CTRL ] searching for component 'cpuid' in list 'bochs'
+00000000000d[CTRL ] searching for component 'sse4a' in list 'cpuid'
+00000000000d[CTRL ] searching for component 'cpuid' in list 'bochs'
+00000000000d[CTRL ] searching for component 'sse' in list 'cpuid'
+00000000000i[     ]   SSE support: sse2
+00000000000d[CTRL ] searching for component 'cpuid' in list 'bochs'
+00000000000d[CTRL ] searching for component 'xsave' in list 'cpuid'
+00000000000d[CTRL ] searching for component 'cpuid' in list 'bochs'
+00000000000d[CTRL ] searching for component 'xsaveopt' in list 'cpuid'
+00000000000i[     ]   XSAVE support: no 
+00000000000d[CTRL ] searching for component 'cpuid' in list 'bochs'
+00000000000d[CTRL ] searching for component 'aes' in list 'cpuid'
+00000000000i[     ]   AES support: no
+00000000000d[CTRL ] searching for component 'cpuid' in list 'bochs'
+00000000000d[CTRL ] searching for component 'movbe' in list 'cpuid'
+00000000000i[     ]   MOVBE support: no
+00000000000d[CTRL ] searching for component 'cpuid' in list 'bochs'
+00000000000d[CTRL ] searching for component 'adx' in list 'cpuid'
+00000000000i[     ]   ADX support: no
+00000000000i[     ]   x86-64 support: no
+00000000000d[CTRL ] searching for component 'cpuid' in list 'bochs'
+00000000000d[CTRL ] searching for component 'mwait' in list 'cpuid'
+00000000000i[     ]   MWAIT support: yes
+00000000000i[     ] Optimization configuration
+00000000000i[     ]   RepeatSpeedups support: no
+00000000000i[     ]   Fast function calls: no
+00000000000i[     ]   Handlers Chaining speedups: no
+00000000000i[     ] Devices configuration
+00000000000i[     ]   NE2000 support: no
+00000000000d[CTRL ] searching for component 'pci' in list 'bochs'
+00000000000d[CTRL ] searching for component 'enabled' in list 'pci'
+00000000000i[     ]   PCI support: yes, enabled=yes
+00000000000i[     ]   SB16 support: no
+00000000000i[     ]   USB support: no
+00000000000i[     ]   VGA extension support: vbe
+00000000000d[CTRL ] searching for component 'memory' in list 'bochs'
+00000000000d[CTRL ] searching for component 'standard' in list 'memory'
+000000000
