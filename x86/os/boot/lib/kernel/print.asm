@@ -53,7 +53,7 @@ put_int:
 ; 此时dl中应该是数字对应的字符的ascii码
    mov [ebx+edi], dl		       
    dec edi
-   shr eax, 4
+   shr eax, 4 ; 去掉已转换好的四位
    mov edx, eax 
    loop .16based_4bits
 
@@ -159,7 +159,7 @@ put_char:
     jl .set_cursor
 .roll_screen:
     cld
-    mov ecx,960 ;需要搬运（2000-80*2/4 = 960 
+    mov ecx,960 ;需要搬运（2000-80)*2/4 = 960 
 
     mov esi,0xc00b80a0 ; 第一行行首
     mov edi,0xc00b8000 ; 第零行行首

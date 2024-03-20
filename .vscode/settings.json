@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "printf.h": "c"
+        "printf.h": "c",
+        "print.h": "c",
+        "io.h": "c"
     }
 }
