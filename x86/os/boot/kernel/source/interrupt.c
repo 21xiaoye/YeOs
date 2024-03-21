@@ -9,7 +9,7 @@
 #define PIC_S_CTRL 0xA0 // 从片
 #define PIC_S_DATA 0xA1
 
-#define IDT_DESC_CNT 0x21 // 目前总共支持的中断数量
+#define IDT_DESC_CNT 0x30 // 目前总共支持的中断数量
 
 /*中断描述结构体*/
 struct gate_desc
@@ -37,7 +37,7 @@ static void pic_init(void)
          * bochs进行模拟的时候，初始向量设置为0x20应该为0x20但是触发的是0x06的中断处理程序，设置为0x01~0x19则正常
          * 此处未知晓产生的原因，猜测是bochs模拟不完整的原因
         */
-        outb(PIC_M_DATA, 0x10); // ICW2: 0010 0000 ,起始中断向量号为 0x20(0x20-0x27) 0~19 处理器内部固定中断 20~31 intel保留
+        outb(PIC_M_DATA, 0x20); // ICW2: 0010 0000 ,起始中断向量号为 0x20(0x20-0x27) 0~19 处理器内部固定中断 20~31 intel保留
         outb(PIC_M_DATA, 0x04); // ICW3: 0000 0100 ,IR2 接从片
         outb(PIC_M_DATA, 0x01); // ICW4: 0000 0001 ,8086 模式，正常EOI
 
